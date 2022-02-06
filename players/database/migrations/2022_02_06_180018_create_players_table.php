@@ -13,8 +13,11 @@ class CreatePlayersTable extends Migration
      */
     public function up()
     {
+        // La table va directement se creer dans notre database
         Schema::create('players', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
+            $table->string('name');
+            $table->integer('score');
             $table->timestamps();
         });
     }
