@@ -5,6 +5,7 @@ Back end php avec le microframework LUMEN: https://lumen.laravel.com/
 J'ai choisi d'utiliser lumen car c'est un microframework léger et facile à prendre en main. 
 (il me semble qu'on l'utilise pendant la formation PHP.)
 Et mySQL en base de donnée. 
+J'ai utilisé POSTMAN pour tester les requetes sur mon API (commentaires dans le fichier routes/web.php)
 
 J'ai utilisé les commits + commentaires pour expliquer mon code. 
 Malheuresement je n'utilise pas les commandes SQL 
