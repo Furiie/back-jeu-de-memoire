@@ -39,7 +39,13 @@ class PlayerController extends Controller
     public function create(Request $request)
 
     {
-         $player = Player::create($request->all());
+        // Je valide les données reçues dans ma requête HTTP
+        $this->validate($request, [
+            'name'      => 'required|string|min:2|max:128',
+            'score' => 'required|integer|min:0|max:300',
+        ]);
+        
+        $player = Player::create($request->all());
 
         return response()->json($player, 201);
     }
