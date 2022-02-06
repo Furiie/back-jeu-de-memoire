@@ -15,7 +15,7 @@ Malheuresement je n'utilise pas les commandes SQL
 * Aller dans le dossier "player" => Commande : Composer install
 * Créer une nouvelle database
 * Créer à la racine du dossier player un fichier .env et le remplir en précisant bien la database créée
-* Commande : php artisan migrate (pour creer la table "players"
+* Commande : php artisan migrate (pour créer la table "players")
 * Lancer le serveur : php -S localhost:8000 -t public 
 * Tester sur : http://localhost:8000/api/players
 
